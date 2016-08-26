@@ -8,7 +8,7 @@ $("#about-button").on('click', function() {
 
 $("#services-button").on('click', function() {
 	$('html, body').animate({
-	    scrollTop: $("#services").offset().top
+	    scrollTop: $("#services").offset().top + 80
 	}, 1000);
 });
 
